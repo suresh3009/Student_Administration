@@ -1,0 +1,71 @@
+.loginpage {
+    background-image: url('./uni.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1705px 850px;
+    background-attachment: fixed;
+    border: 1px solid black;
+    margin-top: -4%;
+}
+
+.head {
+    padding-left: 38%;
+}
+
+.loginform {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 0px 15px 5px black;
+    margin-top: 17%;
+    margin-inline: 30%;
+    margin-bottom: 270px;
+}
+
+.loginform:hover {
+    background-color: rgba(0, 0, 0, 0.484);
+}
+
+@media only screen and (max-width:1300px) {
+    .loginform {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        margin-top: 40%;
+        margin-bottom: 40%;
+
+    }
+
+    .loginpage {
+        background-size: 100% 100%;
+    }
+}
+
+.lbutton:hover {
+    cursor: pointer;
+}
+
+.mg3 {
+    margin-left: -40px;
+}
+
+.pics {
+    height: 500px;
+    border: 5px solid red;
+    margin-top: 10px;
+    margin-inline: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+
+.about{
+    display: flex;
+    color: rgb(165, 42, 42);
+    justify-content: center;
+}
+.databg{
+    height:730px;
+    background-image: url("./background.jpg");
+    background-size: 100% 100%;
+}
